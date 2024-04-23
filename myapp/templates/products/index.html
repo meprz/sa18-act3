@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: darkslategray;
+          color: whitesmoke;
+          padding: 24px;
+        }
+    </style>
+
+    <body>
+        <h1>Products</h1>
+        <ul>
+            {% for product in products %}
+                <li><a href="{% url 'product_show' product.id %}">{{ product.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
