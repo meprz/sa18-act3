@@ -1,0 +1,31 @@
+[
+    {
+        "model": "myapp.product",
+        "pk": 1,
+        "fields": {
+            "name": "Tablet",
+            "price": 399.0,
+            "description": "This is a run of the mill overpriced tablet."
+        }
+    },
+
+        {
+        "model": "myapp.product",
+        "pk": 2,
+        "fields": {
+            "name": "Mobile Phone",
+            "price": 899.0,
+            "description": "Hooray for planned obsolescence. Buy this year's model."
+        }
+    },
+
+        {
+        "model": "myapp.product",
+        "pk": 3,
+        "fields": {
+            "name": "Laptop",
+            "price": 1599.0,
+            "description": "This has features you don't want but not ones you need."
+        }
+    }
+]
